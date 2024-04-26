@@ -1,0 +1,60 @@
+/* importacao da fonte */
+@import url();
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Inter', sans-serif;
+}
+
+/* Menu de navegação */
+#principal{
+   width: 100%;
+   height: 100px;
+   background-color: #303030;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #bababa;
+}
+
+   #menu {
+     display: flex;
+     width: 45%;
+     justify-content: space-around;
+     align-items: center;
+     margin-left: 5%;
+  }
+
+   #principal div a {
+     font-size: 20px;
+     font-weight: 600;
+     color: white;
+     text-decoration: none;
+     line-height: 30px;
+     padding: 10px;
+
+  }
+
+   #principal div a:hover {
+     color: #cccccc;
+
+  }
+   #principal button {
+     margin-right: 5%;
+     background-color: #0C70F2;
+     border: 0;
+     color: white;
+     height: 40px;
+     width: 90px;
+     border-radius: 10px;
+     font-size: 18px;
+     font-weight: 600;
+     box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.80);
+     cursor: pointer;
+  }
+
+   #principal button:hover {
+     background-color: #0d65d7;
+   }
