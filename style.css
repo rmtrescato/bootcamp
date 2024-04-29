@@ -282,8 +282,9 @@ body {
   }
 
   #principal button {
-    width: 100%;
+    width: 80%;
     margin: 0px;
+    margin-bottom: 10px;
   }
 
   /* section */
@@ -309,6 +310,18 @@ body {
   input[type="submit"] {
     font-size: 23px;
     margin-top: 50px;
+  }
+ 
+  /* Ajustando o Footer */
+
+  footer .linha1{
+    flex-direction: column;
+  }
+
+  footer .endereco {
+    width: 90%;
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 
   }
