@@ -236,3 +236,79 @@ body {
     width: 20%;
     text-align: center;
   }
+
+  footer .linha2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 10px auto
+  }
+
+  footer .linha2 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+  }
+
+  footer .linha2 a:first-child{
+    border-right: 2px solid white;
+    height: 80%;
+  }
+
+  footer .linha2 a:hover{
+    color: var(--cinza-hover);
+  }
+
+  @media only screen and (max-width: 600px){
+
+  #principal {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #menu {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+
+  #menu a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+
+  #principal button {
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* section */
+
+  section h1 {
+    font-size: 38px;
+  }
+
+  section h2 {
+    font-size: 25px;
+    padding-left: 5px;
+  }
+
+  form {
+    width: 95%;
+    font-size: 20px;
+  }
+
+  .checkbox-itens label {
+    font-size: 15px;
+  }
+
+  input[type="submit"] {
+    font-size: 23px;
+    margin-top: 50px;
+  }
+
+  }
